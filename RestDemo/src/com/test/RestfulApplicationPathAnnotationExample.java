@@ -31,6 +31,7 @@ public class RestfulApplicationPathAnnotationExample {
         s.setAge(24);
         s.setName("Jyoti");
         s.setSubject("Java");
+        s.setMobileNumber(1234567890);
         return s;
     }
 	

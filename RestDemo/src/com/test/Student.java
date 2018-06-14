@@ -7,6 +7,7 @@ public class Student {
 	private String name;
 	private int age;
 	private String subject;
+	private long mobileNumber;
 	public Student() {
 		
 	}
@@ -28,10 +29,16 @@ public class Student {
 	public void setSubject(String subject) {
 		this.subject = subject;
 	}
+	public long getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(long mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", age=" + age + ", subject=" + subject + ", getName()=" + getName()
-				+ ", getAge()=" + getAge() + ", getSubject()=" + getSubject() + "]";
+		return "Student [name=" + name + ", age=" + age + ", subject=" + subject + ", mobileNumber=" + mobileNumber
+				+ "]";
 	}
 
 }
